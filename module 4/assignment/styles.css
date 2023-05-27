@@ -1,0 +1,11 @@
+body {
+  background-color: #101828;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#clock {
+  font-size: 64px;
+  color: #ffc000;
+}

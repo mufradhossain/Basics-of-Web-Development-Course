@@ -1,0 +1,5 @@
+I have defined a function updateClock function. This function displays the clock inside the div.
+In this updateClock function, the current time is captured by a new Date object and stored in currentTime variable.
+I use getHours(), getMinutes(), getSeconds() to get the hours, minutes, and seconds from the currentTime variable and store in separate variables called hours, minutes, and seconds, respectively.
+I use document.getElementById method to select the div and display the clock using textContent.
+First I call updateClock function. Next I use the setInterval function to repeatedly call the updateClock function after 1000 milliseconds. So the clock will be updated every second.
